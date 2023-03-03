@@ -1,0 +1,50 @@
+.container {
+	text-align: center;
+	margin-top: 50px;
+}
+
+h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.board {
+	display: flex;
+	flex-wrap: wrap;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.square {
+	width: 90px;
+	height: 90px;
+	border: 1px solid #000;
+	font-size: 72px;
+	text-align: center;
+	line-height: 90px;
+	cursor: pointer;
+}
+
+.square:hover {
+	background-color: #eee;
+}
+
+#message {
+	font-size: 24px;
+	margin-top: 20px;
+}
+
+#reset {
+	margin-top: 20px;
+	font-size: 24px;
+	padding: 10px 20px;
+	cursor: pointer;
+	background-color: #008CBA;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+}
+
+#reset:hover {
+	background-color: #005b80;
+}
